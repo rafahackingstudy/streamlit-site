@@ -26,7 +26,7 @@ st.set_page_config(page_title="Análise de Produtos")
 
 st.subheader("Análise de Produtos")
 
-df = pd.read_excel(r"C:\Users\fic\Documents\Rafael linguagem python\07-06 Manha\exercicio\base_logistica_completa.xlsx")
+df = pd.read_excel("base_logistica_completa.xlsx")
 
 st.dataframe(df)
 
